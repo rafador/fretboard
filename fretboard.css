@@ -19,3 +19,20 @@ body, p {
 .fretnum {
     font-size: 8px;
 }
+
+text.note {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    pointer-events: none;
+}
+
+circle.note {
+    fill: white;
+}
+
+circle.note.growing {
+    /*transition: 1ms;*/
+}
+
+circle.note.shrinking {
+    transition: 400ms;
+}

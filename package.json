@@ -8,16 +8,22 @@
     "fretboard"
   ],
   "homepage": "https://txels.github.io/fretboard/index.html",
-  "author": {
-    "name": "Carles Barrobés",
-    "url": "http://txels.barrobes.com/"
-  },
+  "author": "Carles Barrobés (http://txels.barrobes.com/)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/txels/fretboard.git"
+    "url": "git+https://github.com/txels/fretboard.git"
   },
   "dependencies": {
-    "d3": "3.0.x"
+    "animate.css": "^3.7.0",
+    "contextify": "^1.0.0",
+    "d3": "^3.5.17",
+    "events": "^3.0.0",
+    "jsdom": "^14.0.0",
+    "node": "^11.12.0",
+    "node-gyp": "^3.8.0",
+    "three.js": "^0.77.1",
+    "webmidi": "^2.3.3",
+    "webpack": "^4.29.6"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
@@ -27,10 +33,19 @@
     "karma-jasmine": "^1.0.2",
     "karma-phantomjs-launcher": "^1.0.4",
     "phantomjs": "^2.1.7",
-    "phantomjs-prebuilt": "^2.1.7"
+    "phantomjs-prebuilt": "^2.1.7",
+    "webpack-cli": "^3.3.0"
   },
   "scripts": {
     "test": "karma start"
   },
-  "readmeFilename": "README.md"
+  "bugs": {
+    "url": "https://github.com/txels/fretboard/issues"
+  },
+  "main": "fretboard.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "license": "ISC"
 }
